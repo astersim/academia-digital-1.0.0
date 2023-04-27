@@ -28,6 +28,8 @@ public interface IAlunoService {
    */
   List<Aluno> getAll();
 
+  abstract List<Aluno> getAll(String dataDeNascimento);
+
   /**
    * Atualiza o Aluno.
    * @param id - id do Aluno que será atualizado.
